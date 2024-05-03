@@ -1,0 +1,7 @@
+.map-container{    
+    background-image: var(--color-bg);    
+}
+.map{
+    text-align: center;
+    padding: 50px;
+}

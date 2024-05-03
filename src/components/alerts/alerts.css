@@ -1,0 +1,46 @@
+.alerts-container{
+    background-image: var(--color-bg);
+    text-align: center;
+}
+.alerts-container h1{
+    font-size: 2.5rem;
+    color: var(--color-text1);
+    font-weight: 600;
+}
+.alert-icon{
+    font-size: 15rem;
+    color: var(--color-green);
+}
+.info p{
+    padding-left: 500px;
+    padding-right: 500px;
+    color: var(--color-text1);
+    font-size: 1rem;
+    font-weight: 600;
+}
+.info h5{
+    font-size: 1.5rem;
+    color: var(--color-text1);
+    font-weight: 600;
+    padding-top: 15px;
+}
+.btn-alerts button {
+    background-color: rgba(236, 30, 30, 0.897);    
+    width: fit-content;    
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;    
+    border: 1px solid rgba(236, 30, 30, 0.897);    
+    transition: 0.5s ;
+    cursor: pointer;
+}
+.btn-alerts button{
+    color: var(--color-white);
+}
+.btn-alerts:hover {
+    background-color: transparent;
+    color: var(--color-text1);
+}
+.btn-content{
+    padding: 2rem 0 2rem 0;
+}

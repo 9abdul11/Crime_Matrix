@@ -1,0 +1,80 @@
+.info-container{
+    background-image: var(--color-bg);
+    padding: 50px;    
+    text-align: center;
+}
+.info-container h1{
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+    color: var(--color-text1);
+    font-weight: 600;
+}
+
+.info-content h5{
+    font-size: 1rem;
+    color: var(--color-text1);
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.info-content p{
+    color: var(--color-text1);
+}
+.search-container{
+    background-image: var(--main-color);
+    padding: 50px;
+    text-align: center;    
+}
+.search-bar{
+    display: flex;
+    justify-content: center;    
+}
+.search-bar input{
+    border: 2px solid grey;    
+}
+.search-bar input:focus{
+    background-color: antiquewhite;
+    color: black;
+}
+.search-container h1{
+    color: var(--color-white);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 40%;
+
+  }
+  .near-button{
+    cursor: pointer;
+    padding: 20px 100px 20px 100px;
+    font-size: 20px;
+    background-color: rgb(77, 131, 77);
+  }
+  
+  .search-button {   
+    cursor: pointer;
+    background-color: transparent;
+  }
+  .search-icon{
+    font-size: 2rem;    
+  }
+  .button{
+    padding-left: 5px;
+    padding-top: 5px;
+  }
+  .near-button{
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+  }
+  .near-button:hover{
+    background-color: transparent;
+    border: 2px solid rgb(77, 131, 77);
+    border-radius: 10px;
+    color: rgb(77, 131, 77);
+    transition: all 0.3s;
+  }

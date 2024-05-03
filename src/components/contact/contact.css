@@ -1,0 +1,35 @@
+.contact-content{
+    background-image: var(--main-color);
+}
+.container.contact-container{
+    width: 58%;        
+    padding-bottom: 7rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+input,textarea{    
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: rgb(230, 233, 236);
+    border: 2px solid var(--color-white);
+    resize: none;
+    color: var(--color-text1);
+}
+.success-message {
+    color: var(--color-primary);
+    margin-top: 10px;
+  }
+ #emer{
+    text-align: center;
+    font-size: 2rem;
+    color: var(--color-text1);
+ }
+ 
+ #emer span{
+    color: white;
+ }

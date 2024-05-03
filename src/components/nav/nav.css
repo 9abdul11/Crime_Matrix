@@ -1,0 +1,47 @@
+.nav-heading{
+    padding-bottom: 4.5rem;
+}
+.navbar-content{
+    background-image: var(--main-color);
+    width: 100%;    
+    padding: 25px;               
+    position: fixed;
+    box-shadow: 2px 5px 25px rgb(102, 100, 100);
+}
+nav{
+    margin-right: 8rem;
+    text-align: right;      
+}
+nav a{
+    color: var(--color-white);
+    margin-right: 3rem;
+    font-size: 1rem;
+    font-weight: 800;
+    transition: all 0.5s ease;    
+}
+nav a:hover{
+    color: rgb(7, 59, 18);    
+    font-size: 1.2rem;    
+    text-decoration-thickness: 3px;            
+}
+.btn {
+    border: 1px solid #669452;
+    background-color: #669452;
+    border-radius: 10px;
+    padding: 8px;
+    color: var(--color-white);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: transparent;   
+    color: var(--color-white); 
+}
+
+.logo img{
+    width: 14vw;
+    position: absolute;    
+    top: -2px;
+    left: 50px;
+}

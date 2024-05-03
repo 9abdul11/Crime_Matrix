@@ -1,0 +1,40 @@
+.header-content{
+    height: 100vh;
+    background-image: url(../../images/background.jpg);
+    background-size: 1366px 677px;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-attachment: fixed;    
+    padding-top: 25%;
+    padding-left: 12%; 
+}
+.head{
+    
+    font-size: 3rem;        
+    display: flex;
+    border-left: 20px solid var(--color-green);
+    flex-direction: column;
+    padding-left: 20px;
+}
+.head h1{
+    font-style: italic;
+    font-weight: bold;    
+}
+.head h5{
+    font-weight: 700;
+    margin-bottom: -1.5rem;
+}
+.head p{
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--color-white);
+}
+.line{
+    width: 250px;
+    height: 20px;
+    background-color: #78b45e;    
+    transform: rotate(90deg);
+    position: relative;
+    left: -12%;
+    top: 140px;
+}
